@@ -1,0 +1,38 @@
+#menu {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menuTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+.MenuImg {
+  object-fit: fill;
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 430px) {
+}
+.MenuImg {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 720px) {
+}
+.MenuImg {
+  height: 60rem;
+  width: 60rem;
+}
